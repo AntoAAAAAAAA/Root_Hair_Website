@@ -11,8 +11,6 @@ BE-IN-TESTING-BRANCH-FOR-TESTS.py
 testing.ipynb
 
 # PyInstaller
-build/
-dist/
 *.toc
 *.spec.bak
 
