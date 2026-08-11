@@ -8,11 +8,10 @@ st.text("Please select a download option from below")
 col1, col2 = st.columns(2)
 
 with col1.expander("MacOS", expanded=False):
-    # st.text("Click the button below, and then select 'Download' within the Google Drive folder")
-    st.link_button('Download App', "https://drive.google.com/file/d/1KbLhJGJvmK7tSITIEX0bBLjokr3tuENp/view?usp=drive_link")
+    st.link_button('Download App', "https://drive.google.com/file/d/1LFbcEDF2atjDAlBoKH3Mw-9CMhirEjDu/view?usp=drive_link")
 
 with col2.expander("Windows", expanded=False):
-    st.link_button("Download App", "https://drive.google.com/file/d/1NDwXAlnzh46FtQ2uY8OScqctWICAHZ-m/view?usp=drive_link")     
+    st.link_button("Download App", "https://drive.google.com/file/d/1l5KtwsILhIPowhPa26pMESzytDKNlqkC/view?usp=drive_link")     
 
 st.text(" ")
 
