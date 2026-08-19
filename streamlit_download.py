@@ -9,7 +9,7 @@ st.text("Select your operating system from below.")
 col1, col2 = st.columns(2)
 
 with col1.expander("MacOS", expanded=False):
-    st.link_button('Download App', "https://drive.google.com/file/d/1LFbcEDF2atjDAlBoKH3Mw-9CMhirEjDu/view?usp=drive_link",
+    st.link_button('Download App', "https://drive.google.com/file/d/1tVgmH87d4CY-BnOdJj9Pd-R6k5LNytjG/view?usp=drive_link",
                    type='primary')
     st.text('')
     st.text("1. Click 'Download App'")
