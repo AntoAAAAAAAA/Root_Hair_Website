@@ -30,3 +30,8 @@ with col2.expander("Windows", expanded=False):
     st.text("5. You should see a file called RootHairAnalyzer open; this is your app. Double click to open")
     st.text("Optional: Right click on the app and create a desktop shortcut for easy access later")
 st.text(" ")
+st.text(' ')
+st.text(' ')
+st.text(' ')
+
+st.write("For feedback or issues, please email: ***anto2005antony@gmail.com***")
