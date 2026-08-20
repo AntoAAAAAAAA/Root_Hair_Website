@@ -20,7 +20,7 @@ with col1.expander("MacOS", expanded=False):
     st.text("Optional: Move the app to your Applications folder for easier future access")
 
 with col2.expander("Windows", expanded=False):
-    st.link_button("Download App", "https://drive.google.com/file/d/1l5KtwsILhIPowhPa26pMESzytDKNlqkC/view?usp=drive_link",
+    st.link_button("Download App", "https://drive.google.com/file/d/1K_IMNXt5vRsRFswknl3AwWMEXXl55iU_/view?usp=drive_link",
                    type='primary')     
     st.text('')
     st.text("1. Click 'Download App'")
