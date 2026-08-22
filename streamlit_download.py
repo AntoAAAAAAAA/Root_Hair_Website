@@ -9,7 +9,7 @@ st.text("Select your operating system from below.")
 col1, col2 = st.columns(2)
 
 with col1.expander("MacOS", expanded=False):
-    st.link_button('Download App', "https://drive.google.com/file/d/1tVgmH87d4CY-BnOdJj9Pd-R6k5LNytjG/view?usp=drive_link",
+    st.link_button('Download App', "https://drive.google.com/file/d/1tVgmH87d4CY-BnOdJj9Pd-R6k5LNytjG/view?usp=sharing",
                    type='primary')
     st.text('')
     st.text("1. Click 'Download App'")
@@ -20,7 +20,7 @@ with col1.expander("MacOS", expanded=False):
     st.text("Optional: Move the app to your Applications folder for easier future access")
 
 with col2.expander("Windows", expanded=False):
-    st.link_button("Download App", "https://drive.google.com/file/d/1K_IMNXt5vRsRFswknl3AwWMEXXl55iU_/view?usp=drive_link",
+    st.link_button("Download App", "https://drive.google.com/file/d/1K_IMNXt5vRsRFswknl3AwWMEXXl55iU_/view?usp=sharing",
                    type='primary')     
     st.text('')
     st.text("1. Click 'Download App'")
