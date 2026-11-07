@@ -2,16 +2,20 @@ import streamlit as st
 
 download = st.Page("streamlit_download.py", title='Home', default=True)
 instr = st.Page("streamlit_instr.py", title="Instructions")
-main_page = st.Page("streamlit_main.py", title="Demo")
+# main_page = st.Page("streamlit_main.py", title="Demo")
 
-pg = st.navigation([download, instr, main_page])
+pg = st.navigation([
+                    download, 
+                    instr, 
+                    # main_page
+                   ])
 
 if pg == download:
     current_layout = 'centered'
 if pg == instr:
     current_layout = 'centered'
-if pg == main_page:
-    current_layout = 'wide'
+# if pg == main_page:
+    # current_layout = 'wide'
 st.set_page_config(layout=current_layout)
 
 pg.run()
