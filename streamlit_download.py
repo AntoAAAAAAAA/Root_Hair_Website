@@ -9,26 +9,21 @@ st.text("Select your operating system from below.")
 col1, col2 = st.columns(2)
 
 with col1.expander("MacOS", expanded=False):
-    st.link_button('Download App', "https://drive.google.com/file/d/1tVgmH87d4CY-BnOdJj9Pd-R6k5LNytjG/view?usp=sharing",
+    st.link_button('Download App', "https://github.com/AntoAAAAAAAA/Root_Hair_Project/releases/download/v2.0/RHA_Installer.dmg",
                    type='primary')
     st.text('')
-    st.text("1. Click 'Download App'")
-    st.text("2. A Google Drive link will open. Click 'Download'")
-    st.text("3. Save the .zip file to a safe location")
-    st.text("4. Open Finder, navigate to the .zip file, and double click it")
-    st.text("5. You should see a file called RootHairAnalyzer open; this is your app. Double click to open")
-    st.text("Optional: Move the app to your Applications folder for easier future access")
+    st.text("1. Download and install installer")
+    st.text("2. Follow on-screen instructions to install app")
+    st.text("3. Follow instructions in github repo regarding security alerts (this app is not digitally signed)")
 
 with col2.expander("Windows", expanded=False):
-    st.link_button("Download App", "https://drive.google.com/file/d/1K_IMNXt5vRsRFswknl3AwWMEXXl55iU_/view?usp=sharing",
+    st.link_button("Download App", "https://github.com/AntoAAAAAAAA/Root_Hair_Project/releases/download/v2.0/RHA_Installer_Windows.exe",
                    type='primary')     
-    st.text('')
-    st.text("1. Click 'Download App'")
-    st.text("2. A Google Drive link will open. Click 'Download'")
-    st.text("3. Save the .zip file to a safe location")
-    st.text("4. Open Finder, navigate to the .zip file, and double click it")
-    st.text("5. You should see a file called RootHairAnalyzer open; this is your app. Double click to open")
-    st.text("Optional: Right click on the app and create a desktop shortcut for easy access later")
+     st.text('')
+    st.text("1. Download and install installer")
+    st.text("2. Follow on-screen instructions to install app")
+    st.text("3. Follow instructions in github repo regarding security alerts (this app is not digitally signed)")
+
 st.text(" ")
 st.text(' ')
 st.text(' ')
