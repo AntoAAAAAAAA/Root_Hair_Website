@@ -19,7 +19,7 @@ with col1.expander("MacOS", expanded=False):
 with col2.expander("Windows", expanded=False):
     st.link_button("Download App", "https://github.com/AntoAAAAAAAA/Root_Hair_Project/releases/download/v2.0/RHA_Installer_Windows.exe",
                    type='primary')     
-     st.text('')
+    st.text('')
     st.text("1. Download and install installer")
     st.text("2. Follow on-screen instructions to install app")
     st.text("3. Follow instructions in github repo regarding security alerts (this app is not digitally signed)")
