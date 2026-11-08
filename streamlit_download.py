@@ -9,7 +9,7 @@ st.text("Select your operating system from below.")
 col1, col2 = st.columns(2)
 
 with col1.expander("MacOS", expanded=False):
-    st.link_button('Download App', "https://github.com/AntoAAAAAAAA/Root_Hair_Project/releases/latest/download/v2.0/RHA_Installer.dmg",
+    st.link_button('Download App', "https://github.com/AntoAAAAAAAA/Root_Hair_Project/releases/latest/download/RHA_Installer.dmg",
                    type='primary')
     st.text('')
     st.text("1. Download and install installer")
@@ -17,7 +17,7 @@ with col1.expander("MacOS", expanded=False):
     st.text("3. Follow instructions in github repo regarding security alerts (this app is not digitally signed)")
 
 with col2.expander("Windows", expanded=False):
-    st.link_button("Download App", "https://github.com/AntoAAAAAAAA/Root_Hair_Project/releases/latest/download/v2.0/RHA_Installer_Windows.exe",
+    st.link_button("Download App", "https://github.com/AntoAAAAAAAA/Root_Hair_Project/releases/latest/download/RHA_Installer_Windows.exe",
                    type='primary')     
     st.text('')
     st.text("1. Download and install installer")
